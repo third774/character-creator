@@ -3,11 +3,21 @@
   padding-bottom: 64px;
 }
 
+.backdrop {
+  background: hsl(195deg, 20%, 86%);
+  position: fixed;
+  top: 60%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 .maxWidthWrapper {
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +34,10 @@
 }
 
 .characterWrapper {
+  position: sticky;
+  top: 0;
 }
 
 .controlColumn {
+  width: 50%;
 }
